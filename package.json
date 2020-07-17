@@ -18,6 +18,9 @@
   "homepage": "https://github.com/mikhama/build-sandbox#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5"
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-block-scoping": "^7.10.5",
+    "@babel/plugin-transform-classes": "^7.10.4",
+    "@babel/plugin-transform-template-literals": "^7.10.5"
   }
 }
