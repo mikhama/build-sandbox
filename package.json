@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mikhama/build-sandbox/issues"
   },
-  "homepage": "https://github.com/mikhama/build-sandbox#readme"
+  "homepage": "https://github.com/mikhama/build-sandbox#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5"
+  }
 }
