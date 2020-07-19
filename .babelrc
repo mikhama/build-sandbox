@@ -2,12 +2,7 @@
   "presets": [[
     "@babel/env",
     {
-      "debug": true,
-      "targets": [
-        "last 2 chrome versions",
-        "> 0.3%",
-        "not ie > 0"
-      ]
+      "debug": true
     }
   ]],
   "plugins": [
