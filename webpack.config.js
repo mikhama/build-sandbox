@@ -4,6 +4,7 @@ module.exports = {
   module: {
     rules: [
 
+      // Loading javascript
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -39,6 +40,15 @@ module.exports = {
               name: '[name].[ext]'
             }
           }
+        ]
+      },
+
+      // Loading styles
+      {
+        test: /\.(css)$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' }
         ]
       }
     ]
